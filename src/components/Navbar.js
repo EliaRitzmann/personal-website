@@ -3,7 +3,7 @@ import { Link } from "react-scroll/modules";
 
 export const Navbar = () => {
   return (
-    <div className="fixed right-0 flex flex-col top-1/2 -translate-y-1/2 text-center mr-3 z-10">
+    <div className="fixed right-0 flex flex-col top-1/2 -translate-y-1/2 text-center mr-3 z-10 hidden">
       <Link
         className="text-2xl font-semibold text-gray-400"
         activeClass="text-black"

@@ -6,11 +6,11 @@ export const Welcome = () => {
   return (
     <div id='welcome' className='h-screen flex justify-center items-center flex-col'>
       <div className='flex justify-center flex-col'>
-      <h1 className='text-6xl text-center'>Elia Ritzmann</h1>
+      <h1 className='text-6xl text-center dark:text-orange-500'>Elia Ritzmann</h1>
       <h1 className='text-3xl text-center'>React and React native developer.</h1>
       </div>
       <Link
-        className="text-2xl font-semibold flex justify-center content-end absolute bottom-2"
+        className="text-2xl font-semibold flex justify-center content-end absolute bottom-8 animate-bounce cursor-pointer"
         activeClass="text-black"
         to="aboutMe"
         spy={true}
