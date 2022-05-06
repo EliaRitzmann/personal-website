@@ -2,11 +2,12 @@ import React from 'react'
 import Link from 'react-scroll/modules/components/Link'
 
 export const Welcome = () => {
-
+    
   return (
     <div id='welcome' className='h-screen flex justify-center items-center flex-col'>
+      <div className='absolute top-6 right-20 text-xl font-semibold dark:text-purple-600 text-black'>{"Toggle Color ->"}</div>
       <div className='flex justify-center flex-col'>
-      <h1 className='text-6xl text-center dark:text-orange-500'>Elia Ritzmann</h1>
+      <h1 className='text-6xl text-center dark:text-orange-500 mb-4'>Elia Ritzmann</h1>
       <h1 className='text-3xl text-center'>React and React native developer.</h1>
       </div>
       <Link
@@ -16,7 +17,7 @@ export const Welcome = () => {
         spy={true}
         smooth={true}
         offset={0}
-        duration={600}
+        duration={1250}
       ><svg xmlns="http://www.w3.org/2000/svg" className="h-14 w-14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
     </svg>
@@ -24,3 +25,6 @@ export const Welcome = () => {
     </div>
   )
 }
+
+/*
+*/

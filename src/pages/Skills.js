@@ -18,34 +18,35 @@ export const Skills = () => {
       <div className="sticky top-0">
         <Titelscroll titel="SKILLS" />
       </div>
+      <div className="">
       <div className="flex gap-4 flex-row-reverse mr-12 mb-4">
         <Parallax
-          className="bg-white h-24 w-56 rounded-lg flex justify-center items-center gap-2"
+          className="bg-white h-24 w-56 rounded-lg flex justify-center items-center gap-2 "
           speed={10}
         >
           <img src={cs} className="w-10 h-10"></img>
-          <h1c className="text-lg font-bold">.Net</h1c>
+          <h1 className="text-lg font-bold">.Net</h1>
         </Parallax>
         <Parallax
           className="bg-white h-24 w-56 rounded-lg flex justify-center items-center gap-2"
           speed={50}
         >
           <img src={tailwind} className="w-10 h-10"></img>
-          <h1c className="text-lg font-bold">Tailwind CSS</h1c>
+          <h1 className="text-lg font-bold">Tailwind CSS</h1>
         </Parallax>
         <Parallax
           className="bg-white h-24 w-56 rounded-lg flex justify-center items-center gap-2"
           speed={20}
         >
           <img src={firebase} className="w-10 h-10"></img>
-          <h1c className="text-lg font-bold">Firebase</h1c>
+          <h1 className="text-lg font-bold">Firebase</h1>
         </Parallax>
         <Parallax
           className="bg-white h-24 w-56 rounded-lg flex justify-center items-center gap-2"
           speed={50}
         >
           <img src={react} className="w-10 h-10"></img>
-          <h1c className="text-lg font-bold">React</h1c>
+          <h1 className="text-lg font-bold">React</h1>
         </Parallax>
       </div>
       <div className="flex gap-4 flex-row-reverse mr-12">
@@ -54,30 +55,32 @@ export const Skills = () => {
           speed={10}
         >
           <img src={java} className="w-10 h-10"></img>
-          <h1c className="text-lg font-bold">Java</h1c>
+          <h1 className="text-lg font-bold">Java</h1>
         </Parallax>
         <Parallax
           className="bg-white h-24 w-56 rounded-lg flex justify-center items-center gap-2 "
           speed={50}
         >
           <img src={databse} className="w-10 h-10"></img>
-          <h1c className="text-lg font-bold">SQL</h1c>
+          <h1 className="text-lg font-bold">SQL</h1>
         </Parallax>
         <Parallax
           className="bg-white h-24 w-56 rounded-lg flex justify-center items-center gap-2 "
           speed={20}
         >
           <img src={react} className="w-10 h-10"></img>
-          <h1c className="text-lg font-bold">React native</h1c>
+          <h1 className="text-lg font-bold">React native</h1>
         </Parallax>
         <Parallax
           className="bg-white h-24 w-56 rounded-lg flex justify-center items-center gap-2 mb-32"
           speed={50}
         >
           <img src={javascript} className="w-10 h-10"></img>
-          <h1c className="text-lg font-bold">JavaScript</h1c>
+          <h1 className="text-lg font-bold">JavaScript</h1>
         </Parallax>
       </div>
+      </div>
+      
     </div>
   );
 };

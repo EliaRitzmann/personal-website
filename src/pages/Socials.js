@@ -10,10 +10,10 @@ export const Socials = () => {
       </div>
       <Parallax speed={50}>
         <div className="flex justify-evenly items-center h-screen ">
-        <a href="" className="flex flex-col justify-center items-center hover:text-lime-500">
+        <a href="" className="flex flex-col justify-center items-center hover:text-green-600">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-32 h-32 hover:text-lime-400"
+              className="w-32 h-32 hover:text-green-600"
               viewBox="0 0 20 20"
               fill="currentColor"
             >

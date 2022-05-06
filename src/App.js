@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { ParallaxProvider } from "react-scroll-parallax";
+import { DarkModeToggle } from "./components/DarkModeToggle";
 import { Navbar } from "./components/Navbar";
 import { AboutMe } from "./pages/AboutMe";
 import { Projects } from "./pages/Projects";
@@ -8,20 +10,27 @@ import { Welcome } from "./pages/Welcome";
 
 function App() {
 
-  if (localStorage.getItem('color-theme') === 'dark') {
+  const [darkMode, setDarkMode] = useState(false)
+
+  if (darkMode === true) {
     document.documentElement.classList.add('dark');
 } else {
     document.documentElement.classList.remove('dark')
 }
 
+  function toggleDarkMode(){
+    setDarkMode((prev) => !prev)
+  }
+
   return (
     <div >
       <ParallaxProvider >
       <Navbar></Navbar>
+      <DarkModeToggle toggle={toggleDarkMode}></DarkModeToggle>
       <Welcome></Welcome>
       <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="w-full"
+      className="w-full "
       version="1.1"
       viewBox="0 0 960 200"
     >
