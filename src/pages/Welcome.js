@@ -1,4 +1,5 @@
 import React from 'react'
+import { Parallax } from 'react-scroll-parallax'
 import Link from 'react-scroll/modules/components/Link'
 
 export const Welcome = () => {

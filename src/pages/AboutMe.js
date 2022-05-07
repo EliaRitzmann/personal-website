@@ -46,7 +46,7 @@ export const AboutMe = () => {
             <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 w-5/12"></div>
               <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full">
-                <h1 className="mx-auto text-black font-semibold text-lg">2</h1>
+                <h1 className="mx-auto text-black font-semibold text-lg">3</h1>
               </div>
               <div className="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4">
                 <h3 className="mb-3 font-bold text-black text-xl">Was anderes AG (2019)</h3>
@@ -59,7 +59,7 @@ export const AboutMe = () => {
             <div className="mb-8 flex justify-between items-center w-full right-timeline">
               <div className="order-1 w-5/12"></div>
               <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full">
-                <h1 className="mx-auto font-semibold text-lg text-black">1</h1>
+                <h1 className="mx-auto font-semibold text-lg text-black">4</h1>
               </div>
               <div className="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4">
                 <h3 className="mb-3 font-bold text-black text-xl">
@@ -74,7 +74,7 @@ export const AboutMe = () => {
             <div className="mb-8 flex justify-between items-center w-full right-timeline">
               <div className="order-1 w-5/12"></div>
               <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full">
-                <h1 className="mx-auto font-semibold text-lg text-black">1</h1>
+                <h1 className="mx-auto font-semibold text-lg text-black">5</h1>
               </div>
               <div className="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4">
                 <h3 className="mb-3 font-bold text-black text-xl">
