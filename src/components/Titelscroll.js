@@ -2,8 +2,8 @@ import React from "react";
 
 export const Titelscroll = (props) => {
   return (
-    <div className="overflow-hidden">
-      <h1 className="text-9xl text-stone-300 font-semibold ml-3" >{props.titel}</h1>
+    <div className="">
+      <h1 className="text-5xl md:text-9xl text-stone-300 font-semibold ml-3 relative" >{props.titel}</h1>
     </div>
   );
 };

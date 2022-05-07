@@ -6,17 +6,17 @@ import mockupb from "../resources/mockups/mockup2.png";
 
 export const ProjectTemplate = (props) => {
   return (
-    <div className="h-screen grid grid-cols-2 items-center -mt-40">
+    <div className="h-screen grid grid-cols-2 items-center md:-mt-40 -mt-64">
       <div className="flex flex-col">
         
-        <div className="ml-20">
-        <a href=""><h1 className="text-8xl mb-12 font-normal font-mono">{props.title}</h1></a>
+        <div className="ml-5 md:ml-20">
+        <a href=""><h1 className="text-4xl md:text-8xl mb-12  font-mono">{props.title}</h1></a>
         <div className="flex mb-6">
-          <a href={props.link1} className="text-4xl">Portfolio</a>
-          <p className="mx-2 text-4xl">•</p>
-          <a href={props.link2} className="text-4xl">GitHub</a>
+          <a href={props.link1} className="md:text-4xl">Portfolio</a>
+          <p className="mx-2 md:text-4xl">•</p>
+          <a href={props.link2} className="md:text-4xl">GitHub</a>
         </div>
-        <p className="text-4xl">{props.description}</p>
+        <p className="md:text-4xl">{props.description}</p>
         </div>
         
       </div>
