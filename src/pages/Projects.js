@@ -1,5 +1,8 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
+import { Statify } from "../components/projects/Statify";
+import { ToDoList } from "../components/projects/ToDoList";
+import { WeatherApp } from "../components/projects/WeatherApp";
 import { ProjectTemplate } from "../components/ProjectTemplate";
 import { Titelscroll } from "../components/Titelscroll";
 
@@ -10,24 +13,9 @@ export const Projects = () => {
         <Titelscroll titel="PROJECTS" />
       </div>
       <Parallax className="mt-44 md:mt-0">
-      <ProjectTemplate
-        title="Weather App"
-        link1=""
-        link2="https://github.com/EliaRitzmann/firebase-firestore-to-do-list"
-        description="Eine Wetter App welche ich mit React native erstellt habe."
-      ></ProjectTemplate>
-      <ProjectTemplate
-        title="To-do List"
-        link1=""
-        link2=""
-        description="Eine Web-App zum erstellen von Tasks, welche ich mit React und Firebase programiert habe."
-      ></ProjectTemplate>
-      <ProjectTemplate
-        title="Statify"
-        link1=""
-        link2=""
-        description="Eine Web-App zum einsehen der meisst gehörten Lieder und Künstler der App Spotify."
-      ></ProjectTemplate>
+      <WeatherApp></WeatherApp>
+      <ToDoList></ToDoList>
+      <Statify></Statify>
       </Parallax>
     </div>
   );
