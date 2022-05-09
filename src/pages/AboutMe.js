@@ -38,7 +38,7 @@ export const AboutMe = () => {
               <div className="md:order-1 bg-white rounded-lg shadow-xl w-72 md:w-5/12 px-6 py-4">
                 <h3 className="mb-3 font-bold text-black text-xl">Jactronic AG (2019)</h3>
                 <p className="text-sm font-medium leading-snug tracking-wide text-black text-opacity-100">
-                  Kurzpraktikum bei der Jactromnic ag
+                  Kurzpraktikum bei der Jactronic ag
                 </p>
               </div>
             </div>
@@ -49,9 +49,9 @@ export const AboutMe = () => {
                 <h1 className="mx-auto text-black font-semibold text-lg">3</h1>
               </div>
               <div className="md:order-1 bg-white rounded-lg shadow-xl w-72 md:w-5/12 px-6 py-4">
-                <h3 className="mb-3 font-bold text-black text-xl">Was anderes AG (2019)</h3>
+                <h3 className="mb-3 font-bold text-black text-xl">WebApp GmBH (2019)</h3>
                 <p className="text-sm font-medium leading-snug tracking-wide text-black text-opacity-100">
-                  Kurzpraktikum bei der Jactromnic ag
+                  Kurzpraktikum bei der WebApp GmbH in Burgdorf. 
                 </p>
               </div>
             </div>

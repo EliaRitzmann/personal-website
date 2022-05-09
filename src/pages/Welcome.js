@@ -9,7 +9,7 @@ export const Welcome = () => {
       <div className='absolute top-6 right-20 text-xl font-semibold dark:text-purple-600 text-black'>{"Toggle Color ->"}</div>
       <div className='flex justify-center flex-col'>
       <h1 className='text-6xl text-center dark:text-orange-500 mb-4'>Elia Ritzmann</h1>
-      <h1 className='text-3xl text-center'>React and React native developer.</h1>
+      <h1 className='text-3xl text-center'>Web developper</h1>
       </div>
       <Link
         className="text-2xl font-semibold flex justify-center content-end absolute bottom-8 animate-bounce cursor-pointer"

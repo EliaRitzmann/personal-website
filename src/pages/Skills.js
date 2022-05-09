@@ -47,7 +47,7 @@ export const Skills = () => {
             speed={50}
           >
             <img src={react} className="w-10 h-10"></img>
-            <h1 className="text-lg font-bold">React</h1>
+            <h1 className="text-lg font-bold">React.js</h1>
           </Parallax>
         </div>
         <div className="flex gap-4 flex-row-reverse mr-12">

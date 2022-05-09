@@ -61,7 +61,7 @@ export const Socials = () => {
               d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
             />
           </svg>
-          <h1 className="text-xl font-semibold hidden md:block">Download</h1>
+          <h1 className="text-xl font-semibold hidden md:block">Bewerbung</h1>
           </a>
         </div>
       </Parallax>
