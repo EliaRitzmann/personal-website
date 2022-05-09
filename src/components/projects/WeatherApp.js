@@ -23,7 +23,7 @@ export const WeatherApp = () => {
             <img src={mockup} alt="" className="w-80"/>
           </Parallax>
           <Parallax speed={80} >
-            <img src={mockup} alt="" className="w-80"/>
+            <img src={mockup} alt="" className="w-80 hidden md:block"/>
           </Parallax>
       </div>
       
