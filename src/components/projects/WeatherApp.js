@@ -8,7 +8,7 @@ export const WeatherApp = () => {
       <div className="flex flex-col">
         <div className="ml-5 md:ml-20">
           <a href="">
-            <h1 className="text-4xl md:text-8xl mb-12  font-mono">
+            <h1 className="text-4xl md:text-8xl mb-12 font-mono transition-transform hover:translate-x-2">
               Weather App
             </h1>
           </a>
