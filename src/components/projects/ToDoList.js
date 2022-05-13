@@ -10,11 +10,11 @@ export const ToDoList = () => {
       <div className="flex flex-col">
         
         <div className="ml-5 md:ml-20">
-        <a href="https://to-do-list-eliaritzmann.netlify.app/"><h1 className="text-4xl md:text-8xl mb-12  font-mono transition-transform hover:translate-x-2">To-do List</h1></a>
+        <a href="https://to-do-list-eliaritzmann.netlify.app/" target="_blank"><h1 className="text-4xl md:text-8xl mb-12  font-mono transition-transform hover:translate-x-2">To-do List</h1></a>
         <div className="flex mb-6">
-          <a href="" className="md:text-4xl">Portfolio</a>
+          <a href="" className="md:text-4xl" target="_blank">Portfolio</a>
           <p className="mx-2 md:text-4xl">•</p>
-          <a href="https://github.com/EliaRitzmann/firebase-firestore-to-do-list" className="md:text-4xl">GitHub</a>
+          <a href="https://github.com/EliaRitzmann/firebase-firestore-to-do-list" target="_blank" className="md:text-4xl">GitHub</a>
         </div>
         <p className="md:text-4xl">Eine Web-App zum erstellen von Tasks, welche ich mit React und Firebase programiert habe.</p>
         </div>

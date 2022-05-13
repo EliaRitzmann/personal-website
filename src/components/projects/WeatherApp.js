@@ -7,17 +7,17 @@ export const WeatherApp = () => {
     <div className="h-screen grid grid-cols-2 items-center md:-mt-40 -mt-64">
       <div className="flex flex-col">
         <div className="ml-5 md:ml-20">
-          <a href="">
+          <a href="" target="_blank">
             <h1 className="text-4xl md:text-8xl mb-12 font-mono transition-transform hover:translate-x-2">
               Weather App
             </h1>
           </a>
           <div className="flex mb-6">
-            <a href="" className="md:text-4xl">
+            <a href="" className="md:text-4xl" target="_blank">
               Portfolio
             </a>
             <p className="mx-2 md:text-4xl">•</p>
-            <a href="" className="md:text-4xl">
+            <a href="" className="md:text-4xl" target="_blank">
               GitHub
             </a>
           </div>
