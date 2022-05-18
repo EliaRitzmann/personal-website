@@ -24,9 +24,9 @@ export const Welcome = () => {
       <div className="hidden md:block">
       <div className="grid grid-cols-2">
         <div className="flex flex-col justify-center ml-48">
-          <div className="flex mb-4"><h1 className="text-6xl">
+          <div className=" mb-4"><h1 className="text-4xl ">
             Hallo, ich bin
-          </h1><h1 className="text-6xl ml-3 font-medium text-sky-500"> Elia</h1></div>
+          </h1><h1 className="text-7xl font-medium text-sky-500 -ml-1"> Elia Ritzmann</h1></div>
           
           <h1 className="text-3xl text-stone-400">Web developer</h1>
           
