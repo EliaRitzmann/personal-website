@@ -2,6 +2,7 @@ import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import Link from "react-scroll/modules/components/Link";
 import elia from "../resources/icons/IMG_E0744.jpg"
+//import "../styles/image.css"
 
 export const Welcome = () => {
   return (
@@ -25,13 +26,13 @@ export const Welcome = () => {
         <div className="flex flex-col justify-center ml-48">
           <div className="flex mb-4"><h1 className="text-6xl">
             Hallo, ich bin
-          </h1><h1 className="text-6xl ml-3 font-medium text-sky-600"> Elia</h1></div>
+          </h1><h1 className="text-6xl ml-3 font-medium text-sky-500"> Elia</h1></div>
           
           <h1 className="text-3xl text-stone-400">Web developer</h1>
           
         </div>
         <div className="flex justify-center content-center p-10">
-        <img src={elia} alt="my face" className="w-3/5 rounded-3xl" />
+        <img src={elia} alt="my face" className="w-3/5 rounded-3xl face" />
         </div>
       </div>
       </div>
