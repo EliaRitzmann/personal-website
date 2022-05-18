@@ -4,7 +4,7 @@ export const DarkModeToggle = (props) => {
   return (
     <button
       onClick={props.toggle}
-      className="fixed right-5 top-5  text-stone-400 dark:text-purple-600 hover:text-purple-600 z-20"
+      className="fixed right-5 top-5  text-stone-400 dark:text-lime-500 md:hover:text-lime-500 z-20"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
