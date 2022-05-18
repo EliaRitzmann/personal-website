@@ -10,7 +10,11 @@ export const Socials = () => {
       </div>
       <Parallax speed={50}>
         <div className="flex justify-evenly items-center flex-col md:flex-row h-screen ">
-        <a href="mailto:derelia2004@gmail.com" target="_blank" className="flex md:flex-col justify-center items-center hover:text-green-600">
+          <a
+            href="mailto:derelia2004@gmail.com"
+            target="_blank"
+            className="flex md:flex-col justify-center items-center hover:text-green-600"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-32 h-32 hover:text-green-600"
@@ -22,9 +26,13 @@ export const Socials = () => {
             </svg>
             <h1 className="text-xl font-semibold hidden md:block">Email</h1>
           </a>
-          <a href="https://www.linkedin.com/in/elia-ritzmann-b2031b1a1" target="_blank" className="flex md:flex-col justify-center items-center hover:text-blue-500">
+          <a
+            href="https://www.linkedin.com/in/elia-ritzmann-b2031b1a1"
+            target="_blank"
+            className="flex md:flex-col justify-center items-center hover:text-blue-500"
+          >
             <svg
-            fill="currentColor"
+              fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 30 30"
               className="w-32 h-32 hover:text-blue-500"
@@ -34,7 +42,11 @@ export const Socials = () => {
             </svg>
             <h1 className="text-xl font-semibold hidden md:block">Linked In</h1>
           </a>
-          <a href="https://github.com/EliaRitzmann" target="_blank" className="flex md:flex-col justify-center items-center hover:text-orange-500">
+          <a
+            href="https://github.com/EliaRitzmann"
+            target="_blank"
+            className="flex md:flex-col justify-center items-center hover:text-orange-500"
+          >
             <svg
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
@@ -46,22 +58,26 @@ export const Socials = () => {
             </svg>
             <h1 className="text-xl font-semibold hidden md:block">Git Hub</h1>
           </a>
-          <a target="_blank" href="https://bbbaden-my.sharepoint.com/:f:/g/personal/e_ritzmann_inf20_stud_bbbaden_ch/EoZ-CGtQbSlMsnrStxBAD6YB-8cYxOSn8ZDfO89Ldux5Nw?e=wYCQMK" className="flex md:flex-col justify-center items-center hover:text-teal-400">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-32 h-32 hover:text-teal-400"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
+          <a
+            target="_blank"
+            href="https://bbbaden-my.sharepoint.com/:f:/g/personal/e_ritzmann_inf20_stud_bbbaden_ch/EoZ-CGtQbSlMsnrStxBAD6YBmpJpsqXJMCmEv2C_1JnViQ?e=bG10Du"
+            className="flex md:flex-col justify-center items-center hover:text-teal-400"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-            />
-          </svg>
-          <h1 className="text-xl font-semibold hidden md:block">Bewerbung</h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-32 h-32 hover:text-teal-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+              />
+            </svg>
+            <h1 className="text-xl font-semibold hidden md:block">Bewerbung</h1>
           </a>
         </div>
       </Parallax>
