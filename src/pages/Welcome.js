@@ -14,14 +14,14 @@ export const Welcome = () => {
         {"Toggle Color ->"}
       </div>
 
-      <div className="flex justify-center flex-col md:dark:hidden">
+      <div className="flex justify-center flex-col md:hidden">
         <h1 className="text-6xl text-center mb-4">
           Elia Ritzmann
         </h1>
         <h1 className="text-3xl text-center">Web developer</h1>
       </div>
 
-      <div className="hidden md:dark:block">
+      <div className="hidden md:block">
       <div className="grid grid-cols-2">
         <div className="flex flex-col justify-center ml-48">
           <div className="flex mb-4"><h1 className="text-6xl">
