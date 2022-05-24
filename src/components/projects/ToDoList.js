@@ -16,7 +16,7 @@ export const ToDoList = () => {
           <p className="mx-2 md:text-4xl">•</p>
           <a href="https://github.com/EliaRitzmann/firebase-firestore-to-do-list" target="_blank" className="md:text-4xl">GitHub</a>
         </div>
-        <p className="md:text-4xl">Eine Web-App zum erstellen von Tasks, welche ich mit React und Firebase programiert habe.</p>
+        <p className="md:text-4xl">Eine Web-App zum erstellen von Tasks, welche ich mit React und Firebase programmiert habe.</p>
         </div>
         
       </div>
