@@ -14,14 +14,14 @@ export const Welcome = () => {
         {"Toggle Color ->"}
       </div>
 
-      <div className="flex justify-center flex-col md:hidden">
+      <div className="flex justify-center flex-col lg:hidden">
         <h1 className="text-6xl text-center mb-4">
           Elia Ritzmann
         </h1>
         <h1 className="text-3xl text-center">Web developer</h1>
       </div>
 
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
       <div className="grid grid-cols-2">
         <div className="flex flex-col justify-center ml-48">
           <div className=" mb-4"><h1 className="text-4xl ">
@@ -32,7 +32,7 @@ export const Welcome = () => {
           
         </div>
         <div className="flex justify-center content-center p-10">
-        <img src={elia} alt="my face" className="w-3/5 rounded-3xl face" />
+        <img src={elia} alt="my face" className="w-3/5 rounded-3xl face " />
         </div>
       </div>
       </div>
