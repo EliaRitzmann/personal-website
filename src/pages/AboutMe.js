@@ -32,7 +32,7 @@ export const AboutMe = () => {
 
             <div className="mb-8 flex justify-between flex-row-reverse items-center w-full ">
               <div className="order-1 md:w-5/12"></div>
-              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full w-auto px-3">
+              <div className="z-20 flex items-center order-1 bg-white shadow-xl h-8 rounded-full w-auto px-3">
                 <h1 className="mx-auto text-black font-semibold text-lg">2019</h1>
               </div>
               <div className="md:order-1 bg-white rounded-lg shadow-xl w-72 md:w-5/12 px-6 py-4">
@@ -45,7 +45,7 @@ export const AboutMe = () => {
 
             <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 md:w-5/12"></div>
-              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full w-auto px-3">
+              <div className="z-20 flex items-center order-1 bg-white shadow-xl h-8 rounded-full w-auto px-3">
                 <h1 className="mx-auto text-black font-semibold text-lg">2019</h1>
               </div>
               <div className="md:order-1 bg-white rounded-lg shadow-xl w-72 md:w-5/12 px-6 py-4">
@@ -58,7 +58,7 @@ export const AboutMe = () => {
 
             <div className="mb-8 flex justify-between flex-row-reverse md:flex-row items-center w-full">
               <div className="order-1 md:w-5/12"></div>
-              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full w-auto px-3">
+              <div className="z-20 flex items-center order-1 bg-white shadow-xl h-8 rounded-full w-auto px-3">
                 <h1 className="mx-auto font-semibold text-lg text-black">2017 - 2020</h1>
               </div>
               <div className="md:order-1 bg-white rounded-lg shadow-xl w-72 md:w-5/12 px-6 py-4">
@@ -73,7 +73,7 @@ export const AboutMe = () => {
 
             <div className="mb-8 flex justify-between flex-row-reverse md:flex-row items-center w-full">
               <div className="order-1 md:w-5/12"></div>
-              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full w-auto px-3">
+              <div className="z-20 flex items-center order-1 bg-white shadow-xl h-8 rounded-full w-auto px-3">
                 <h1 className="mx-auto font-semibold text-lg text-black">2011 - 2017</h1>
               </div>
               <div className="md:order-1 bg-white rounded-lg shadow-xl w-72 md:w-5/12 px-6 py-4">
