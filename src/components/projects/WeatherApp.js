@@ -7,7 +7,7 @@ export const WeatherApp = () => {
     <div className="h-screen grid grid-cols-2 items-center md:-mt-40 -mt-64">
       <div className="flex flex-col">
         <div className="ml-5 md:ml-20">
-          <a href="https://expo.dev/@/projects/weather-app" target="_blank">
+          <a href="https://expo.dev/@elia_jerome/weather-app" target="_blank">
             <h1 className="text-4xl md:text-8xl mb-12 font-mono transition-transform hover:translate-x-2">
               Weather App
             </h1>
