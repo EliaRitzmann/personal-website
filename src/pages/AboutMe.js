@@ -17,12 +17,12 @@ export const AboutMe = () => {
             <Parallax speed={-20} className="my-56">
             <div className="mb-8 flex justify-between flex-row-reverse md:flex-row items-center w-full ">
               <div className="order-1 md:w-5/12"></div>
-              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full">
-                <h1 className="mx-auto font-semibold text-lg text-black">1</h1>
+              <div className="z-20 flex items-center order-1 bg-white shadow-xl h-8 rounded-full w-auto px-3">
+                <h1 className="mx-auto font-semibold text-lg text-black">2020 - Jetzt</h1>
               </div>
               <div className="md:order-1 bg-white rounded-lg shadow-xl w-72 md:w-5/12 px-6 py-4">
                 <h3 className="mb-3 font-bold text-black text-xl">
-                  IMS (2020 - Jetzt)
+                  IMS
                 </h3>
                 <p className="text-sm leading-snug tracking-wide text-black text-opacity-100">
                   Informatikmittelschule in Aarau
@@ -32,11 +32,11 @@ export const AboutMe = () => {
 
             <div className="mb-8 flex justify-between flex-row-reverse items-center w-full ">
               <div className="order-1 md:w-5/12"></div>
-              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full">
-                <h1 className="mx-auto text-black font-semibold text-lg">2</h1>
+              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full w-auto px-3">
+                <h1 className="mx-auto text-black font-semibold text-lg">2019</h1>
               </div>
               <div className="md:order-1 bg-white rounded-lg shadow-xl w-72 md:w-5/12 px-6 py-4">
-                <h3 className="mb-3 font-bold text-black text-xl">Jactronic AG (2019)</h3>
+                <h3 className="mb-3 font-bold text-black text-xl">Jactronic AG</h3>
                 <p className="text-sm font-medium leading-snug tracking-wide text-black text-opacity-100">
                   Kurzpraktikum bei der Jactronic AG.
                 </p>
@@ -45,11 +45,11 @@ export const AboutMe = () => {
 
             <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 md:w-5/12"></div>
-              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full">
-                <h1 className="mx-auto text-black font-semibold text-lg">3</h1>
+              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full w-auto px-3">
+                <h1 className="mx-auto text-black font-semibold text-lg">2019</h1>
               </div>
               <div className="md:order-1 bg-white rounded-lg shadow-xl w-72 md:w-5/12 px-6 py-4">
-                <h3 className="mb-3 font-bold text-black text-xl">WebApp GmBH (2019)</h3>
+                <h3 className="mb-3 font-bold text-black text-xl">WebApp GmBH</h3>
                 <p className="text-sm font-medium leading-snug tracking-wide text-black text-opacity-100">
                   Kurzpraktikum bei der WebApp GmbH in Burgdorf. 
                 </p>
@@ -58,12 +58,12 @@ export const AboutMe = () => {
 
             <div className="mb-8 flex justify-between flex-row-reverse md:flex-row items-center w-full">
               <div className="order-1 md:w-5/12"></div>
-              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full">
-                <h1 className="mx-auto font-semibold text-lg text-black">4</h1>
+              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full w-auto px-3">
+                <h1 className="mx-auto font-semibold text-lg text-black">2017 - 2020</h1>
               </div>
               <div className="md:order-1 bg-white rounded-lg shadow-xl w-72 md:w-5/12 px-6 py-4">
                 <h3 className="mb-3 font-bold text-black text-xl">
-                  Bezirksschule (2017 - 2020)
+                  Bezirksschule
                 </h3>
                 <p className="text-sm leading-snug tracking-wide text-black text-opacity-100">
                   Besuchen der Bezirksschule in Schöftland (Aargau).
@@ -73,15 +73,15 @@ export const AboutMe = () => {
 
             <div className="mb-8 flex justify-between flex-row-reverse md:flex-row items-center w-full">
               <div className="order-1 md:w-5/12"></div>
-              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full">
-                <h1 className="mx-auto font-semibold text-lg text-black">5</h1>
+              <div className="z-20 flex items-center order-1 bg-white shadow-xl w-8 h-8 rounded-full w-auto px-3">
+                <h1 className="mx-auto font-semibold text-lg text-black">2011 - 2017</h1>
               </div>
               <div className="md:order-1 bg-white rounded-lg shadow-xl w-72 md:w-5/12 px-6 py-4">
                 <h3 className="mb-3 font-bold text-black text-xl">
-                  Primarschule (2011 - 2017)
+                  Primarschule
                 </h3>
                 <p className="text-sm leading-snug tracking-wide text-black text-opacity-100">
-                  Besuchen der Primarschule in Schöftland (Aargau).   
+                  Besuchen der Primarschule in Schöftland (Aargau).
                 </p>
               </div>
             </div>
