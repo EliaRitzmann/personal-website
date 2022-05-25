@@ -13,11 +13,19 @@ export const WeatherApp = () => {
             </h1>
           </a>
           <div className="flex mb-6">
-            <a href="" className="md:text-4xl" target="_blank">
+            <a
+              href="https://portfolio.bbbaden.ch/view/view.php?t=OyQwIFk5iYast3VcTGq1"
+              className="md:text-4xl"
+              target="_blank"
+            >
               Portfolio
             </a>
             <p className="mx-2 md:text-4xl">•</p>
-            <a href="https://github.com/EliaRitzmann/weather-app" className="md:text-4xl" target="_blank">
+            <a
+              href="https://github.com/EliaRitzmann/weather-app"
+              className="md:text-4xl"
+              target="_blank"
+            >
               GitHub
             </a>
           </div>
