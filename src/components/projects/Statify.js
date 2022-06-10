@@ -36,12 +36,13 @@ export const Statify = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <Parallax speed={40} className="pt-48">
-          <img src={mockupa} alt="Mockup" className="w-full" />
+      <Parallax speed={10} className="absolute">
+          <img src={mockupb} alt="Mockup" className="ml-28 w-5/6  hidden md:block" />
         </Parallax>
-        <Parallax speed={10}>
-          <img src={mockupb} alt="Mockup" className="w-full hidden md:block" />
+        <Parallax speed={40} className="">
+          <img src={mockupa} alt="Mockup" className="w-1/2" />
         </Parallax>
+        
       </div>
     </div>
   );

@@ -21,12 +21,13 @@ export const ToDoList = () => {
         
       </div>
       <div className="flex justify-center">
-          <Parallax speed={40} className="pt-48">
-            <img src={mockupa} alt="Mockup" className="w-80"/>
-          </Parallax>
-          <Parallax speed={80} >
+        <Parallax speed={40} className="mr-24 w-5/6">
             <img src={mockupb} alt="Mockup" className="w-full hidden md:block"/>
           </Parallax>
+          <Parallax speed={80} className="absolute">
+            <img src={mockupa} alt="Mockup" className="w-72 ml-24"/>
+          </Parallax>
+          
       </div>
       
     </div>
