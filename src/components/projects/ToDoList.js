@@ -25,7 +25,7 @@ export const ToDoList = () => {
             <img src={mockupb} alt="Mockup" className="w-full hidden md:block"/>
           </Parallax>
           <Parallax speed={80} className="absolute">
-            <img src={mockupa} alt="Mockup" className="w-72 ml-24"/>
+            <img src={mockupa} alt="Mockup" className="w-full md:w-72 md:ml-24"/>
           </Parallax>
           
       </div>

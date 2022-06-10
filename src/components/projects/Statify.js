@@ -40,7 +40,7 @@ export const Statify = () => {
           <img src={mockupb} alt="Mockup" className="ml-28 w-5/6  hidden md:block" />
         </Parallax>
         <Parallax speed={40} className="">
-          <img src={mockupa} alt="Mockup" className="w-1/2" />
+          <img src={mockupa} alt="Mockup" className="md:w-1/2 w-full" />
         </Parallax>
         
       </div>
