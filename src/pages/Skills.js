@@ -14,7 +14,7 @@ import databse from "../resources/icons/database_logo.png";
 
 export const Skills = () => {
   return (
-    <div id="skills" className=" bg-black">
+    <div id="skills" className=" bg-black dark:bg-[#FF81B2]">
       <div className="sticky top-0">
         <Titelscroll titel="SKILLS" />
       </div>

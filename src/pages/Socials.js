@@ -6,7 +6,9 @@ export const Socials = () => {
   return (
     <div id="socials" className="">
       <div className="top-0 sticky">
-        <Titelscroll titel="Socials" />
+      <div className="">
+      <h1 className="text-5xl md:text-9xl text-stone-300 font-semibold ml-3 relative dark:text-sky-400" >SOCIALS</h1>
+    </div>
       </div>
       <Parallax speed={50}>
         <div className="flex justify-evenly items-center flex-col md:flex-row h-screen ">

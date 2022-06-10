@@ -3,7 +3,7 @@ import React from "react";
 export const Titelscroll = (props) => {
   return (
     <div className="">
-      <h1 className="text-5xl md:text-9xl text-stone-300 font-semibold ml-3 relative" >{props.titel}</h1>
+      <h1 className="text-5xl md:text-9xl text-stone-300 font-semibold ml-3 relative dark:text-stone-100" >{props.titel}</h1>
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { Titelscroll } from "../components/Titelscroll";
 
 export const AboutMe = () => {
   return (
-    <div id="aboutMe" className="bg-black dark:bg-green-500">
+    <div id="aboutMe" className="bg-black dark:bg-[#05B6D4]">
       <div className="top-0 sticky">
         <Titelscroll titel="ABOUT ME" />
       </div>
