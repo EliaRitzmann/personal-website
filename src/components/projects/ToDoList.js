@@ -10,7 +10,7 @@ export const ToDoList = () => {
       <div className="flex flex-col">
         
         <div className="ml-5 md:ml-20">
-        <a href="https://to-do-list-eliaritzmann.netlify.app/" target="_blank"><h1 className="text-4xl md:text-8xl mb-12  font-mono transition-transform hover:translate-x-2">To-do List</h1></a>
+        <a href="https://to-do-list.elia-ritzmann.ch/" target="_blank"><h1 className="text-4xl md:text-8xl mb-12  font-mono transition-transform hover:translate-x-2">To-do List</h1></a>
         <div className="flex mb-6">
           <a href="https://portfolio.bbbaden.ch/view/view.php?t=YGioEkngzTWxXty1hqUm" className="md:text-4xl" target="_blank">Portfolio</a>
           <p className="mx-2 md:text-4xl">•</p>
