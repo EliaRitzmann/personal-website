@@ -15,7 +15,7 @@ export const AboutMe = () => {
             <div className="absolute border-opacity-20 border-white h-full border ml-3.5 md:ml-0 md:right-1/2 bg-white"></div>
 
             <Parallax speed={-20} className="my-56">
-            <div className="mb-8 flex justify-between flex-row-reverse md:flex-row items-center w-full ">
+            <div className="mb-8 flex justify-between flex-row-reverse md:flex-row items-center w-full gap-2">
               <div className="order-1 md:w-5/12"></div>
               <div className="z-20 flex items-center order-1 bg-white shadow-xl py-1 rounded-full w-auto px-3">
                 <h1 className="mx-auto font-semibold lg:text-lg text-sm text-black">2020 - Jetzt</h1>
@@ -30,7 +30,7 @@ export const AboutMe = () => {
               </div>
             </div>
 
-            <div className="mb-8 flex justify-between flex-row-reverse items-center w-full ">
+            <div className="mb-8 flex justify-between flex-row-reverse items-center w-full gap-2">
               <div className="order-1 md:w-5/12"></div>
               <div className="z-20 flex items-center order-1 bg-white shadow-xl py-1 rounded-full w-auto px-3">
                 <h1 className="mx-auto text-black font-semibold lg:text-lg text-sm">2019</h1>
@@ -43,7 +43,7 @@ export const AboutMe = () => {
               </div>
             </div>
 
-            <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+            <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline gap-2">
               <div className="order-1 md:w-5/12"></div>
               <div className="z-20 flex items-center order-1 bg-white shadow-xl py-1 rounded-full w-auto px-3">
                 <h1 className="mx-auto text-black font-semibold lg:text-lg text-smg">2019</h1>
@@ -56,7 +56,7 @@ export const AboutMe = () => {
               </div>
             </div>
 
-            <div className="mb-8 flex justify-between flex-row-reverse md:flex-row items-center w-full">
+            <div className="mb-8 flex justify-between flex-row-reverse md:flex-row items-center w-full gap-2">
               <div className="order-1 md:w-5/12"></div>
               <div className="z-20 flex items-center order-1 bg-white shadow-xl py-1 rounded-full w-auto px-3">
                 <h1 className="mx-auto font-semibold text-black lg:text-lg text-sm">2017 - 2020</h1>
@@ -71,7 +71,7 @@ export const AboutMe = () => {
               </div>
             </div>
 
-            <div className="mb-8 flex justify-between flex-row-reverse md:flex-row items-center w-full">
+            <div className="mb-8 flex justify-between flex-row-reverse md:flex-row items-center w-full gap-2">
               <div className="order-1 md:w-5/12"></div>
               <div className="z-20 flex items-center order-1 bg-white shadow-xl py-1 rounded-full w-auto px-3">
                 <h1 className="mx-auto font-semibold text-black lg:text-lg text-sm">2011 - 2017</h1>

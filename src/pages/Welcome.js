@@ -13,9 +13,11 @@ export const Welcome = () => {
       <div className="absolute top-6 right-20 text-xl font-semibold dark:text-lime-500 text-black">
         {"Toggle Color ->"}
       </div>
-
       <div className="flex justify-center flex-col lg:hidden">
-        <h1 className="text-6xl text-center mb-4">
+      <div className="flex justify-center content-center p-10">
+        <img src={elia} alt="my face" className="w-3/5 rounded-3xl face " />
+        </div>
+        <h1 className="text-6xl text-center mb-4 text-sky-500 font-medium">
           Elia Ritzmann
         </h1>
         <h1 className="text-3xl text-center">Web developer</h1>

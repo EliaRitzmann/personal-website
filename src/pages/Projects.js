@@ -13,9 +13,9 @@ export const Projects = () => {
         <Titelscroll titel="PROJECTS" />
       </div>
       <Parallax className="mt-44 md:mt-0">
-      <WeatherApp></WeatherApp>
-      <ToDoList></ToDoList>
       <Statify></Statify>
+      <ToDoList></ToDoList>
+      <WeatherApp></WeatherApp>
       </Parallax>
     </div>
   );
