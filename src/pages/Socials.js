@@ -11,7 +11,7 @@ export const Socials = () => {
       <Parallax speed={50}>
         <div className="flex justify-evenly items-center flex-col md:flex-row h-screen ">
           <a
-            href="mailto:derelia2004@gmail.com"
+            href="mailto:elia.ritzmann@stud.altekanti.ch"
             target="_blank"
             className="flex md:flex-col justify-center items-center hover:text-green-600 dark:text-white"
           >
