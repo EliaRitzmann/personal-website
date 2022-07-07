@@ -1,6 +1,7 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
-import mockup from "../../resources/mockups/weatherApp_mockup.png";
+import mockupa from "../../resources/mockups/weatherApp_mockup.png";
+import mockupb from "../../resources/mockups/weatherApp_mockup2.png";
 
 export const WeatherApp = () => {
   return (
@@ -36,10 +37,10 @@ export const WeatherApp = () => {
       </div>
       <div className="flex justify-center">
         <Parallax speed={40} className="pt-48">
-          <img src={mockup} alt="Mockup" className="w-80" />
+          <img src={mockupa} alt="Mockup" className="w-80" />
         </Parallax>
         <Parallax speed={80}>
-          <img src={mockup} alt="Mockup" className="w-80 hidden md:block" />
+          <img src={mockupb} alt="Mockup" className="w-80 hidden md:block" />
         </Parallax>
       </div>
     </div>
